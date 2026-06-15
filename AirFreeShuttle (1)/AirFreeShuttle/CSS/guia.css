@@ -1,0 +1,112 @@
+body
+{
+    margin: 0;
+    background-color: #dff0e8;
+    font-family: Arial, sans-serif;
+    color: #1f2d28;
+}
+
+header 
+{
+    background-color: #1f3d2b;
+    padding: 20px 0;
+    text-align: center;
+    position: sticky;
+}
+
+.titulo
+{
+    margin: 0;
+    color: white;
+    font-size: 36px;
+    letter-spacing: 1px;
+}
+
+.navbar ul
+{
+ list-style: none; 
+ padding: 0;
+ margin: 15px 0 0;
+ display: flex; 
+ justify-content: center;
+gap: 25px; 
+}
+
+.navbar a
+{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    padding: 8px 16px;
+    border-radius: 20px;
+}
+
+
+.contenido
+{
+    background-color: white;
+    max-width: 800px;
+    margin: 35px auto;
+    border-radius: 14px;
+    padding: 35px; 
+}
+
+.titulo-presen
+{
+    color: #5fae8b;
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 26px;
+    border-left: 6px solid #4caf7a;
+    padding-left: 12px;
+}
+
+.presentacion
+{
+    font-size: 16px;
+    line-height: 1.7;
+    color: #2f3f39;
+}
+
+.footer
+{
+    color:white;
+    background-color: #1f3d2b; ;
+    text-align: center;
+    padding: 22px 0;
+    font-size: 14px;
+    margin-top: 60px;
+}
+
+.desplegar
+{
+list-style: none;
+cursor: pointer;
+}
+
+.desplegar[open] .titulo-presen
+{
+    color: #2f5a45
+}
+
+.desplegar .presentacion
+{
+margin-top: 15px;
+animation: fadeIn 0.3 ease-in-out;
+}
+
+.redes
+{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 25px;
+}
+
+img
+{
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 10px
+}
